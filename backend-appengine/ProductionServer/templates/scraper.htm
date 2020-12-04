@@ -1,0 +1,43 @@
+{% extends "_base.htm" %}
+{% block bodycontent %}
+{% if username %}
+<h1>Stock Lookup</h1>
+      <p>
+	<form method="post" action="/scraper">
+		<p>Lookup Stock: <input type="text" value="BHP.AX" name="stock"/></p>
+		<p><input type="submit" value="Lookup"/> 
+
+		</p>
+		</form>
+
+      <table>
+          <tr>
+            <th>{{ stock }}</th>		
+            <td>{{ stockvalue }}</td>	
+          </tr>
+	  </table>
+
+<br><br>{{msg}}	<br>
+		<br>		
+      <table>
+          <tr>
+            <th>Ticker</th>
+            <th>Last Value</th>
+            <th>Lookup Date</th>
+            <th>Added on</th>
+            <th>Added by</th>
+          </tr>
+          {% for stock in stock_list %}
+
+          <tr>
+            <td>{{ stock.ticker }}</td>
+            <td>{{ stock.value }}</td>
+            <td>{{ stock.lookupdate }}</td>
+            <td>{{ stock.addeddate }}</td>
+            <td>{{ stock.addeduser }}</td>
+          </tr>
+
+          {% endfor %}
+      </table>
+{% endif %}
+{% endblock %}

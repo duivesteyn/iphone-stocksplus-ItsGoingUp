@@ -1,0 +1,60 @@
+{% extends "_base.htm" %}
+{% block chuck %}
+    Members
+{% endblock %}
+{% block bodycontent %}
+         {% if username %}
+      <h2>Version Log</h2>
+      <p>
+      </p>
+	 <b>1.11 - 28/09/2012 </b> Bug Fix - Updating Problem<br>
+	 <b>1.10 - 10/09/2012 </b> Updated to High Replication DB (Migration Only)<br>
+	 <b>1.10 - 21/05/2012 </b> Added Device Version/Type reporting. Going Live<br>
+	 <b>1.09 - 21/05/2012 </b> Final Launch Preperations. Added Dev/Production Divide <br>
+	 <b>1.08 - 18/10/2011 </b> More efficient Notification Engine, Smart Caching, Removed Backend Stock Database<br>
+	 <b>1.07 - 18/10/2011 </b> Added ability to import/export stocks. Bug Fixes. Ramping up number of Stocks in DB. Code Cleanup.<br>
+	 <b>1.06 - 15/10/2011 </b> Notification Editing/Deleting added. Added Documentation<br>
+	 <b>1.05 - 03/10/2011 </b> Notifications Working, everything almost in place. Stats Engine at /receive/serverstatistics with post passphrase<br>
+	 <b>1.05 - 01/07/2011 </b> Dev Getting there. Users complete, stock lookup complete, notifications TBA<br>
+     <b>1.00 - 01/01/2011 </b>- Dev Release<br>
+</p>
+<p>
+	
+	<h2>Statistics API</h2><br>
+	
+	<b>Get all Userdata</b><br><pre>
+	POST Data - 'passphrase=77777777' to URL: /receive/serverstatistics
+	curl example: curl --data 'passphrase=43870193' http://localhost:8082/receive/serverstatistics
+	curl example: curl --data 'passphrase=43870193' https://itsgoingupdev.appspot.com/receive/serverstatistics
+	<b>Notes:</b> 
+	Output Syntax: Devices  Stocks  NotificationsSet  TotalNotificationssent </pre>
+
+
+	<h2>App Interface API</h2><br>
+	<b>Register New Device</b><br><pre>
+	POST Data - 'deviceToken=1ac16ea496f514e935e93daac049a464ef041705d30a4d809338786cb2be1814' to URL: /data/receive
+	curl example: curl -F 'deviceToken=1ac16ea496f514e935e93daac049a464ef041705d30a4d809338786cb2be1814' https://itsgoingup-dev.appspot.com/receive/registerdevice </pre>
+	<b>Set/Change Notification</b><br><pre>
+	POST Data - 'deviceToken=1ac16ea496f514e935e93daac049a464ef041705d30a4d809338786cb2be1814' to URL: /data/receive
+	curl example: curl --data 'notificationID=E2AAFB78FDCA&deviceToken=1ac16ea496f514e935e93daac049a464ef041705d30a4d809338786cb2be1814&ticker=BHP.AX&setPoint=39.000&aboveOrBelow=A&repeat=No' http://localhost:8082/receive/setnotification    
+
+	<b>Notes:</b> 
+	setPoint is value of the stock. Should be 3 decimal places
+	aboveOrBelow = A/B
+	repeat = No/Hr/D/W
+	notificationID must be unique - 12 digits </pre>	
+
+		
+	<b>Delete Single Notification</b><br><pre>
+	POST Data - 'notificationID=4DELETION000&deviceToken=1ac16ea496f514e935e93daac049a464ef041705d30a4d809338786cb2be1814&delete=1' to /receive/setnotification
+	curl example: curl --data 'notificationID=4DELETION000&deviceToken=1ac16ea496f514e935e93daac049a464ef041705d30a4d809338786cb2be1814&delete=1' http://localhost:8082/receive/setnotification   </pre>
+	Note: 4DELETION is the notificationID
+	<br><br>
+
+
+
+
+</p>
+ 
+      {% endif %}
+{% endblock %}

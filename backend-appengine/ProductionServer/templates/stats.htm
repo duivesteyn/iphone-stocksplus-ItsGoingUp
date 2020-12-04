@@ -1,0 +1,111 @@
+{% extends "_base.htm" %}
+{% block chuck %}
+{% endblock %}
+{% block bodycontent %}
+         {% if username %}
+
+      <h2>AppEngine Admin</h2>
+
+	<br><b>Environment: {{ environment}}</b>
+    <ul><li><a target="_blank" href="https://appengine.google.com/a/norgeapps.com">IGU AppEngine Home</a></li>
+	<li><a target="_blank" href="https://appengine.google.com/dashboard?app_id=itsgoingup">IGU AppEngine Admin</a> (md@norgeapps.com)</li>
+	</ul>
+	
+	      <h2>Stats</h2>
+      <b>Stock Stats</b><br>
+	<table border="0"  style="background-color:#FFFFFF" width="600" cellpadding="0"  cellspacing="0">
+		<tr>
+			<td>Stocks Registered:</td>
+			<td>N/A</td>
+		</tr>
+		<tr>
+			<td>.</td>
+			<td></td>
+		</tr>
+	</table><br>
+	
+      <b>Notification Stats</b><br>
+	<table border="0"  style="background-color:#FFFFFF" width="600" cellpadding="0"  cellspacing="0">
+		<tr>
+			<td>Set Points Registered:</td>
+			<td>{{ notification_count }}</td>
+		</tr>
+		<tr>
+			<td>Total Notifications Sent</td>
+			<td>{{ notification_totalcount}}</td>
+		</tr>
+		<tr>
+			<td>Table Cell</td>
+			<td>Table Cell</td>
+		</tr>
+		<tr>
+			<td>Table Cell</td>
+			<td>Table Cell</td>
+		</tr>
+	</table><br>
+
+      <b>User Stats</b><br>
+	<table border="0"  style="background-color:#FFFFFF" width="600" cellpadding="0"  cellspacing="0">
+		<tr>
+			<td>Number of Registered Devices</td>
+			<td>{{ device_count }}</td>
+		</tr>
+		<tr>
+			<td>Table Cell</td>
+			<td>Table Cell</td>
+		</tr>
+
+	</table>	
+	<br>
+   Other  <font color="FF0000"><b>(to implement)</b></font><br>
+	<table border="0"  style="background-color:#FFFFFF" width="600" cellpadding="0"  cellspacing="0">
+	<tr>
+	<td>Last Seen User</td>
+	<td>(name/time of last user seen)</td>
+	</tr>
+	
+	<tr>
+	<td>Last Notification Sent Time</td>
+	<td>dddyyymm etc - (X minutes ago)</td>
+	</tr>
+
+	<tr>
+	<td></td>
+	<td>Success</td>
+	</tr>
+
+	<tr>
+	<td>Last Notification Update Result</td>
+	<td>Success</td>
+	</tr>
+
+
+</table>
+
+<br><b>Notification Engine</b><br>
+<table border="0"  style="background-color:#FFFFFF" width="600" cellpadding="0"  cellspacing="0">
+	<tr>
+		<td>Time of Last Update</td>
+		<td>{{ engine_rundate }}</td>
+	</tr>
+	<tr>
+		<td>Notifications Checked Last Update</td>
+		<td>{{ engine_checks }}</td>
+	</tr>
+	<tr>
+		<td> Notification Processing Time last Check</td>
+		<td>{{ engine_checktime }} s</td>
+	</tr>
+	<tr>
+		<td>Notifications Sent Last Check</td>
+		<td>{{ engine_lastrun }}</td>
+	</tr>
+	<tr>
+		<td>Last Run Speed</td>
+		<td>{{ engine_speed }} Notifications/Sec</td>
+	</tr>
+
+</table>
+
+      {% endif %}
+{% endblock %}

@@ -1,0 +1,88 @@
+{% extends "_base.htm" %}
+
+{% block bodycontent %}
+       {% if username %}
+
+
+		
+<h1>Notification Set Points</h1>
+<p>
+<b>Message: </b>  {{msg}}
+  
+<ul>
+<li><a href="/tasks/notificationSender">Notification Sender</a> (Sends out outstanding notifications)</li><br>
+<li>Send Test Notification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/notify/devPhone">dev Phone</a> <!-- | <a href="https://go.urbanairship.com/apps/nzWh9KkERwixNIbMCBGnxA/test/push/" target="_blank">dev build</a> | <a href="https://go.urbanairship.com/apps/fT1X2BWKSWuO-_Fi41Gvmw/test/push/" target="_blank">production build</a></li> -->
+<li>Send Broadcast (use with care) <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://go.urbanairship.com/apps/nzWh9KkERwixNIbMCBGnxA/broadcast/" target="_blank">dev build</a> | <a href="https://go.urbanairship.com/apps/fT1X2BWKSWuO-_Fi41Gvmw/broadcast/" target="_blank">production build</a></li> -->
+<li>Device Tokens<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://go.urbanairship.com/apps/nzWh9KkERwixNIbMCBGnxA/device_tokens/" target="_blank">dev build</a> | <a href="https://go.urbanairship.com/apps/fT1X2BWKSWuO-_Fi41Gvmw/device_tokens/" target="_blank">production build</a></li> -->
+
+</ul>
+<br>
+	
+		<form name="addnotification" method="post" action="/receive/setnotification">
+			Add Notification:
+		      <table>
+		          <tr>
+		            <th>Device Token</th>
+		            <th>Ticker</th>
+		            <th>Value</th>
+		            <th>Alert Repeat (None/Hrly/Daily/Weekly)</th>
+		            <th>Above/Below</th>
+		            <th>Notification ID</th>
+		          </tr>
+
+		            <td><input type="text" name="deviceToken"/></td>
+		            <td><input type="text" name="ticker"/></td>
+		            <td><input type="text" name="setPoint"/></td>
+		            <td><select name="repeat"><option value="No">None</option><option value="Hr">Hourly</option><option value="D">Daily</option><option value="W">Weekly</option></select></td>
+		            <td><select name="aboveOrBelow"><option value="A">Above</option><option value="B">Below</option></select></td>
+		            <td><input name="notificationID" type="text" value="randomstring" readonly/></td> 					
+		          </tr>
+
+		      </table><input type="submit" value="Add"/> 
+			</p>
+			</form>		
+				
+      <table>
+          <tr>
+            <th>User Device Token</th>
+            <th>User</th>
+            <th>Ticker</th>
+            <th>Value</th>
+            <th>Alert Repeat (Once/Hrly/Daily)</th>
+            <th>Above/Below</th>
+            <th>Set Date</th>
+            <th>Notification ID</th>
+            <th>Activity Date</th>
+          </tr>
+          {% for notification in notification_list %}
+
+          <tr>
+            <td>{{ notification.notificationUser }}</td>
+            <td>{{ notification.notificationUserAlias }}</td>
+            <td>{{ notification.notificationTicker }}</td>
+            <td>{{ notification.notificationSetPoint }}</td>
+            <td>{{ notification.notificationRepeat }}</td>
+            <td>{{ notification.notificationAboveOrBelow }}</td>
+            <td>{{ notification.notificationSetDate }}</td>
+            <td>{{ notification.notificationUniqueID }}</td>
+            <td>{{ notification.notificationActivityDate }}</td>
+          </tr>
+          {% endfor %}
+      </table>
+
+<script language="javascript" type="text/javascript">
+	var chars = "0123456789ABCDEF";
+	var string_length = 12;
+	var randomstring = '';
+	for (var i=0; i<string_length; i++) {
+		var rnum = Math.floor(Math.random() * chars.length);
+		randomstring += chars.substring(rnum,rnum+1);
+	}
+	document.addnotification.notificationID.value = randomstring;
+</script>
+
+
+       {% endif %}
+{% endblock %}
+
+
