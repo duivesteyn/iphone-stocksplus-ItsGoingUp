@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Buy Price</key>
+		<string></string>
+		<key>Name</key>
+		<string>Apple Inc.</string>
+		<key>Notes</key>
+		<string></string>
+		<key>Notification</key>
+		<string>0</string>
+		<key>Symbol</key>
+		<string>AAPL</string>
+		<key>Target Price</key>
+		<string>1000</string>
+		<key>Units</key>
+		<string>0</string>
+		<key>NotificationID</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Buy Price</key>
+		<string></string>
+		<key>Name</key>
+		<string>BHP Billiton Limited</string>
+		<key>Notes</key>
+		<string></string>
+		<key>Notification</key>
+		<string>0</string>
+		<key>Symbol</key>
+		<string>BHP</string>
+		<key>Target Price</key>
+		<string>85</string>
+		<key>Units</key>
+		<string>0</string>
+		<key>NotificationID</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>

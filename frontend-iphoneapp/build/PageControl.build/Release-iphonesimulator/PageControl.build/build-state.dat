@@ -1,0 +1,1028 @@
+TPageControl
+v7
+r0
+t322492271.685819
+cCheck dependencies
+cProcessInfoPlistFile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Info.plist Info.plist
+cCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/MainWindow.xib
+cCpResource build/Release-iphonesimulator/PageControl.app/large_five.png LargeImages/large_five.png
+cCpResource build/Release-iphonesimulator/PageControl.app/large_four.png LargeImages/large_four.png
+cCpResource build/Release-iphonesimulator/PageControl.app/large_one.png LargeImages/large_one.png
+cCpResource build/Release-iphonesimulator/PageControl.app/large_six.png LargeImages/large_six.png
+cCpResource build/Release-iphonesimulator/PageControl.app/large_three.png LargeImages/large_three.png
+cCpResource build/Release-iphonesimulator/PageControl.app/large_two.png LargeImages/large_two.png
+cCpResource build/Release-iphonesimulator/PageControl.app/small_five.png SmallImages/small_five.png
+cCpResource build/Release-iphonesimulator/PageControl.app/small_four.png SmallImages/small_four.png
+cCpResource build/Release-iphonesimulator/PageControl.app/small_one.png SmallImages/small_one.png
+cCpResource build/Release-iphonesimulator/PageControl.app/small_six.png SmallImages/small_six.png
+cCpResource build/Release-iphonesimulator/PageControl.app/small_three.png SmallImages/small_three.png
+cCpResource build/Release-iphonesimulator/PageControl.app/small_two.png SmallImages/small_two.png
+cCopyPlistFile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/content_iPad.plist en.lproj/content_iPad.plist
+cCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailPopoverViewController.xib
+cCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailViewController.xib
+cCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/PadContent.xib
+cCopyPlistFile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/content_iPhone.plist en.lproj/content_iPhone.plist
+cCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/MyView.xib
+cCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/PhoneContent.xib
+cCpResource build/Release-iphonesimulator/PageControl.app/Default-Landscape.png Default-Landscape.png
+cCpResource build/Release-iphonesimulator/PageControl.app/Default-Portrait.png Default-Portrait.png
+cCpResource build/Release-iphonesimulator/PageControl.app/Default.png Default.png
+cCpResource build/Release-iphonesimulator/PageControl.app/Default.png images/Default.png
+cCpResource build/Release-iphonesimulator/PageControl.app/Icon-72.png images/Icon-72.png
+cCpResource build/Release-iphonesimulator/PageControl.app/Icon-Small-50.png images/Icon-Small-50.png
+cCpResource build/Release-iphonesimulator/PageControl.app/Icon-Small.png images/Icon-Small.png
+cCpResource build/Release-iphonesimulator/PageControl.app/Icon-Small@2x.png images/Icon-Small@2x.png
+cCpResource build/Release-iphonesimulator/PageControl.app/Icon.png images/Icon.png
+cCpResource build/Release-iphonesimulator/PageControl.app/Icon@2x.png images/Icon@2x.png
+cCpResource build/Release-iphonesimulator/PageControl.app/iTunesArtwork images/iTunesArtwork
+cCpResource build/Release-iphonesimulator/PageControl.app/StocksMain.png StocksMain.png
+cCpResource build/Release-iphonesimulator/PageControl.app/StocksDetail.png StocksDetail.png
+cProcessPCH /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch.gch Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/main.o /Users/benduivesteyn/Downloads/PageControl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o /Users/benduivesteyn/Downloads/PageControl/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PhoneContentController.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/PhoneContentController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/MyViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/ContentController.o /Users/benduivesteyn/Downloads/PageControl/Classes/ContentController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailViewController.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PadContentController.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/PadContentController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/Tile.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/Tile.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailPopoverViewController.o /Users/benduivesteyn/Downloads/PageControl/Classes/DetailPopoverViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl normal i386
+cGenerateDSYMFile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app.dSYM /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl
+cTouch /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/AppDelegate.h
+c000000004CBCAA1B0000000000000B3D
+t1287432731
+s2877
+i<UIKit/UIKit.h>
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/AppDelegate.m
+c000000004CBCAA1B0000000000000C61
+t1287432731
+s3169
+i"AppDelegate.h"
+i"ContentController.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/ContentController.h
+c000000004CBCAA1B0000000000000ACC
+t1287432731
+s2764
+i<Foundation/Foundation.h>
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/ContentController.m
+c000000004CBCAA1B0000000000000B22
+t1287432731
+s2850
+i"ContentController.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/DetailPopoverViewController.h
+c000000004CBCAA1B0000000000000B4C
+t1287432731
+s2892
+i<UIKit/UIKit.h>
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/DetailPopoverViewController.m
+c000000004CBCAA1B0000000000000CF0
+t1287432731
+s3312
+i"DetailPopoverViewController.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/DetailViewController.h
+c000000004CBCAA1B0000000000000D1F
+t1287432731
+s3359
+i<UIKit/UIKit.h>
+i"PadContentController.h"
+i"Tile.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/DetailViewController.m
+c000000004CBCAA1B0000000000001E62
+t1287432731
+s7778
+i"DetailViewController.h"
+i"DetailPopoverViewController.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/PadContentController.h
+c000000004CBCAA1B0000000000000B77
+t1287432731
+s2935
+i<Foundation/Foundation.h>
+i"ContentController.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/PadContentController.m
+c000000004CBCAA1B0000000000000CE4
+t1287432731
+s3300
+i"PadContentController.h"
+i"DetailViewController.h"
+i"AppDelegate.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/Tile.h
+c000000004CBCAA1B00000000000009C5
+t1287432731
+s2501
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/Tile.m
+c000000004CBCAA1B0000000000000C43
+t1287432731
+s3139
+i"Tile.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/MyViewController.h
+c000000004CBCAA1B0000000000000B94
+t1287432731
+s2964
+i<UIKit/UIKit.h>
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/MyViewController.m
+c000000004D89E7D10000000000000346
+t1300883409
+s838
+i"MyViewController.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/PhoneContentController.h
+c000000004CBCAA1B0000000000000C5B
+t1287432731
+s3163
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"ContentController.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/PhoneContentController.m
+c000000004CBCAA1B0000000000001E43
+t1287432731
+s7747
+i"PhoneContentController.h"
+i"AppDelegate.h"
+i"MyViewController.h"
+
+N/Users/benduivesteyn/Downloads/PageControl/Default-Landscape.png
+c000000004CB3823C00000000000043B3
+t1286832700
+s17331
+
+N/Users/benduivesteyn/Downloads/PageControl/Default-Portrait.png
+c000000004CB4C5CB00000000000019BE
+t1286915531
+s6590
+
+N/Users/benduivesteyn/Downloads/PageControl/Default.png
+c000000004CBC8781000000000000126B
+t1287423873
+s4715
+
+N/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_five.png
+c000000004C93D6BE0000000000003CF3
+t1284757182
+s15603
+
+N/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_four.png
+c000000004C93D6BE000000000000364A
+t1284757182
+s13898
+
+N/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_one.png
+c000000004C93D6BE0000000000002E95
+t1284757182
+s11925
+
+N/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_six.png
+c000000004C93D6BE0000000000004321
+t1284757182
+s17185
+
+N/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_three.png
+c000000004C93D6BE0000000000003FFB
+t1284757182
+s16379
+
+N/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_two.png
+c000000004C93D6BE0000000000003E24
+t1284757182
+s15908
+
+N/Users/benduivesteyn/Downloads/PageControl/Prefix.pch
+c000000004CBCAA1B0000000000000A2B
+t1287432731
+s2603
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_five.png
+c000000004C93D6BE00000000000012FB
+t1284757182
+s4859
+
+N/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_four.png
+c000000004C93D6BE000000000000103C
+t1284757182
+s4156
+
+N/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_one.png
+c000000004C93D6BE0000000000000DAE
+t1284757182
+s3502
+
+N/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_six.png
+c000000004C93D6BE00000000000014F8
+t1284757182
+s5368
+
+N/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_three.png
+c000000004C93D6BE0000000000001435
+t1284757182
+s5173
+
+N/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_two.png
+c000000004C93D6BE00000000000012D8
+t1284757182
+s4824
+
+N/Users/benduivesteyn/Downloads/PageControl/StocksDetail.png
+c000000004D889F080000000000056504
+t1300799240
+s353540
+
+N/Users/benduivesteyn/Downloads/PageControl/StocksMain.png
+c000000004D889F600000000000086013
+t1300799328
+s548883
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o
+t1300798832
+s49612
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/ContentController.o
+t1300798832
+s38092
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailPopoverViewController.o
+t1300798833
+s43056
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailViewController.o
+t1300798833
+s55976
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o
+t1300798832
+s42284
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PadContentController.o
+t1300798832
+s41352
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PageControl.LinkFileList
+c000000004D889D6D0000000000000531
+t1300798829
+s1329
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PhoneContentController.o
+t1300798832
+s53120
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/Tile.o
+t1300798832
+s38232
+
+N/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/main.o
+t1300798832
+s6296
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app
+t1300799471
+s1020
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app.dSYM
+t1300798833
+s102
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Default-Landscape.png
+t1300798831
+s17331
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Default-Portrait.png
+t1300798831
+s6590
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Default.png
+t1300799471
+s4715
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Icon-72.png
+t1300798831
+s1063
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Icon-Small-50.png
+t1300798831
+s992
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Icon-Small.png
+t1300798831
+s918
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Icon-Small@2x.png
+t1300798831
+s1010
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Icon.png
+t1300798831
+s1007
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Icon@2x.png
+t1300798831
+s1252
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Info.plist
+t1300798829
+s901
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl
+t1300798833
+s46980
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PkgInfo
+t1300798829
+s8
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/StocksDetail.png
+t1300799471
+s353540
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/StocksMain.png
+t1300799471
+s548883
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/DetailPopoverViewController.nib
+t1300798831
+s3156
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/DetailViewController.nib
+t1300798830
+s1696
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/MainWindow.nib
+t1300798829
+s983
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/MyView.nib
+t1300798831
+s2851
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/PadContent.nib
+t1300798830
+s1671
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/PhoneContent.nib
+t1300798831
+s2229
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/content_iPad.plist
+t1300798829
+s1062
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/content_iPhone.plist
+t1300798830
+s275
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/iTunesArtwork
+t1300798831
+s5188
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/large_five.png
+t1300798829
+s15603
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/large_four.png
+t1300798829
+s13898
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/large_one.png
+t1300798829
+s11925
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/large_six.png
+t1300798829
+s17185
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/large_three.png
+t1300798829
+s16379
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/large_two.png
+t1300798829
+s15908
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/small_five.png
+t1300798829
+s4859
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/small_four.png
+t1300798829
+s4156
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/small_one.png
+t1300798829
+s3502
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/small_six.png
+t1300798829
+s5368
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/small_three.png
+t1300798829
+s5173
+
+N/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/small_two.png
+t1300798829
+s4824
+
+N/Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailPopoverViewController.xib
+c000000004CB4C5E60000000000005932
+t1286915558
+s22834
+
+N/Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailViewController.xib
+c000000004C93D66400000000000051E8
+t1284757092
+s20968
+
+N/Users/benduivesteyn/Downloads/PageControl/en.lproj/MainWindow.xib
+c000000004C93D6640000000000003748
+t1284757092
+s14152
+
+N/Users/benduivesteyn/Downloads/PageControl/en.lproj/MyView.xib
+c000000004C93D6640000000000005429
+t1284757092
+s21545
+
+N/Users/benduivesteyn/Downloads/PageControl/en.lproj/PadContent.xib
+c000000004C93D66400000000000059A1
+t1284757092
+s22945
+
+N/Users/benduivesteyn/Downloads/PageControl/en.lproj/PhoneContent.xib
+c000000004CB61A9A000000000000607C
+t1287002778
+s24700
+
+N/Users/benduivesteyn/Downloads/PageControl/en.lproj/content_iPad.plist
+c000000004C93D66400000000000006D7
+t1284757092
+s1751
+
+N/Users/benduivesteyn/Downloads/PageControl/en.lproj/content_iPhone.plist
+c000000004C93D66400000000000003D6
+t1284757092
+s982
+
+N/Users/benduivesteyn/Downloads/PageControl/images/Default.png
+c000000004C1FC74D00000000000011E9
+t1277151053
+s4585
+
+N/Users/benduivesteyn/Downloads/PageControl/images/Icon-72.png
+c000000004C1FC74D0000000000000427
+t1277151053
+s1063
+
+N/Users/benduivesteyn/Downloads/PageControl/images/Icon-Small-50.png
+c000000004C1FC74D00000000000003E0
+t1277151053
+s992
+
+N/Users/benduivesteyn/Downloads/PageControl/images/Icon-Small.png
+c000000004C1BF62A0000000000000396
+t1276900906
+s918
+
+N/Users/benduivesteyn/Downloads/PageControl/images/Icon-Small@2x.png
+c000000004C1BF62A00000000000003F2
+t1276900906
+s1010
+
+N/Users/benduivesteyn/Downloads/PageControl/images/Icon.png
+c000000004C1BF62A00000000000003EF
+t1276900906
+s1007
+
+N/Users/benduivesteyn/Downloads/PageControl/images/Icon@2x.png
+c000000004C1BF62A00000000000004E4
+t1276900906
+s1252
+
+N/Users/benduivesteyn/Downloads/PageControl/images/iTunesArtwork
+c000000004C223C590000000000001444
+t1277312089
+s5188
+
+N/Users/benduivesteyn/Downloads/PageControl/main.m
+c000000004CBCAA1B0000000000000ADF
+t1287432731
+s2783
+i<UIKit/UIKit.h>
+
+N/var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch.gch
+t1300798832
+s15138000
+
+NInfo.plist
+c000000004CB3823C00000000000005F4
+t1286832700
+s1524
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322492271#322492271#0(156"[WARN]Warning: Multiple build commands for output file /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Default.png1(22@149"Warning: Multiple build commands for output file /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Default.png322492271#18446744073709551615#0#0(1@0"0(0#1#0"8631429952#0"0#
+
+CCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o /Users/benduivesteyn/Downloads/PageControl/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491632.413243
+e322491632.552529
+r1
+xCompileC
+xbuild/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o
+x/Users/benduivesteyn/Downloads/PageControl/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/benduivesteyn/Downloads/PageControl/Classes/AppDelegate.m322491632#322491632#0(0"0(0#0#64"/Users/benduivesteyn/Downloads/PageControl/Classes/AppDelegate.m8614541440#2133"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch -c /Users/benduivesteyn/Downloads/PageControl/Classes/AppDelegate.m -o /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o0#
+
+CCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/ContentController.o /Users/benduivesteyn/Downloads/PageControl/Classes/ContentController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491632.670382
+e322491632.796029
+r1
+xCompileC
+xbuild/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/ContentController.o
+x/Users/benduivesteyn/Downloads/PageControl/Classes/ContentController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/benduivesteyn/Downloads/PageControl/Classes/ContentController.m322491632#322491632#0(0"0(0#0#70"/Users/benduivesteyn/Downloads/PageControl/Classes/ContentController.m8605960352#2145"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch -c /Users/benduivesteyn/Downloads/PageControl/Classes/ContentController.m -o /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/ContentController.o0#
+
+CCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailPopoverViewController.o /Users/benduivesteyn/Downloads/PageControl/Classes/DetailPopoverViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491633.003351
+e322491633.120161
+r1
+xCompileC
+xbuild/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailPopoverViewController.o
+x/Users/benduivesteyn/Downloads/PageControl/Classes/DetailPopoverViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/benduivesteyn/Downloads/PageControl/Classes/DetailPopoverViewController.m322491633#322491633#0(0"0(0#0#80"/Users/benduivesteyn/Downloads/PageControl/Classes/DetailPopoverViewController.m8613554784#2165"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch -c /Users/benduivesteyn/Downloads/PageControl/Classes/DetailPopoverViewController.m -o /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailPopoverViewController.o0#
+
+CCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailViewController.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491632.732327
+e322491633.078760
+r1
+xCompileC
+xbuild/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailViewController.o
+x/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/DetailViewController.m322491632#322491633#0(0"0(0#0#78"/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/DetailViewController.m8612660928#2156"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch -c /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/DetailViewController.m -o /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/DetailViewController.o0#
+
+CCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/MyViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491632.552630
+e322491632.670283
+r1
+xCompileC
+xbuild/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o
+x/Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/MyViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/MyViewController.m322491632#322491632#0(0"0(0#0#76"/Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/MyViewController.m8613062688#2150"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch -c /Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/MyViewController.m -o /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o0#
+
+CCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PadContentController.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/PadContentController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491632.796136
+e322491632.904374
+r1
+xCompileC
+xbuild/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PadContentController.o
+x/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/PadContentController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/PadContentController.m322491632#322491632#0(0"0(0#0#78"/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/PadContentController.m8612468448#2156"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch -c /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/PadContentController.m -o /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PadContentController.o0#
+
+CCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PhoneContentController.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/PhoneContentController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491632.487610
+e322491632.732220
+r1
+xCompileC
+xbuild/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PhoneContentController.o
+x/Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/PhoneContentController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/PhoneContentController.m322491632#322491632#0(0"0(0#0#82"/Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/PhoneContentController.m8613943392#2162"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch -c /Users/benduivesteyn/Downloads/PageControl/Classes/iPhone/PhoneContentController.m -o /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PhoneContentController.o0#
+
+CCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/Tile.o /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/Tile.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491632.904478
+e322491633.003236
+r1
+xCompileC
+xbuild/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/Tile.o
+x/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/Tile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/Tile.m322491632#322491633#0(0"0(0#0#62"/Users/benduivesteyn/Downloads/PageControl/Classes/iPad/Tile.m8614850880#2124"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch -c /Users/benduivesteyn/Downloads/PageControl/Classes/iPad/Tile.m -o /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/Tile.o0#
+
+CCompileC build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/main.o /Users/benduivesteyn/Downloads/PageControl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491632.412227
+e322491632.487504
+r1
+xCompileC
+xbuild/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/main.o
+x/Users/benduivesteyn/Downloads/PageControl/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/benduivesteyn/Downloads/PageControl/main.m322491632#322491632#0(0"0(0#0#49"/Users/benduivesteyn/Downloads/PageControl/main.m8614931296#2111"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch -c /Users/benduivesteyn/Downloads/PageControl/main.m -o /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailPopoverViewController.xib
+s322491629.603920
+e322491631.132484
+r1
+xCompileXIB
+x/Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailPopoverViewController.xib
+lSLF07#2@51"CompileXIB en.lproj/DetailPopoverViewController.xib322491629#322491631#0(0"0(0#0#83"/Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailPopoverViewController.xib8616498176#704"    cd /Users/benduivesteyn/Downloads/PageControl    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/DetailPopoverViewController.nib /Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailPopoverViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailViewController.xib
+s322491629.683903
+e322491630.407876
+r1
+xCompileXIB
+x/Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailViewController.xib
+lSLF07#2@44"CompileXIB en.lproj/DetailViewController.xib322491629#322491630#0(0"0(0#0#76"/Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailViewController.xib8615764928#690"    cd /Users/benduivesteyn/Downloads/PageControl    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/DetailViewController.nib /Users/benduivesteyn/Downloads/PageControl/en.lproj/DetailViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/MainWindow.xib
+s322491629.160726
+e322491629.683812
+r1
+xCompileXIB
+x/Users/benduivesteyn/Downloads/PageControl/en.lproj/MainWindow.xib
+lSLF07#2@34"CompileXIB en.lproj/MainWindow.xib322491629#322491629#0(0"0(0#0#66"/Users/benduivesteyn/Downloads/PageControl/en.lproj/MainWindow.xib8601425856#670"    cd /Users/benduivesteyn/Downloads/PageControl    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/MainWindow.nib /Users/benduivesteyn/Downloads/PageControl/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/MyView.xib
+s322491630.902239
+e322491631.499314
+r1
+xCompileXIB
+x/Users/benduivesteyn/Downloads/PageControl/en.lproj/MyView.xib
+lSLF07#2@30"CompileXIB en.lproj/MyView.xib322491630#322491631#0(0"0(0#0#62"/Users/benduivesteyn/Downloads/PageControl/en.lproj/MyView.xib8616500672#662"    cd /Users/benduivesteyn/Downloads/PageControl    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/MyView.nib /Users/benduivesteyn/Downloads/PageControl/en.lproj/MyView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/PadContent.xib
+s322491630.407970
+e322491630.838379
+r1
+xCompileXIB
+x/Users/benduivesteyn/Downloads/PageControl/en.lproj/PadContent.xib
+lSLF07#2@34"CompileXIB en.lproj/PadContent.xib322491630#322491630#0(0"0(0#0#66"/Users/benduivesteyn/Downloads/PageControl/en.lproj/PadContent.xib8616247040#670"    cd /Users/benduivesteyn/Downloads/PageControl    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/PadContent.nib /Users/benduivesteyn/Downloads/PageControl/en.lproj/PadContent.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/benduivesteyn/Downloads/PageControl/en.lproj/PhoneContent.xib
+s322491631.132581
+e322491631.700496
+r1
+xCompileXIB
+x/Users/benduivesteyn/Downloads/PageControl/en.lproj/PhoneContent.xib
+lSLF07#2@36"CompileXIB en.lproj/PhoneContent.xib322491631#322491631#0(0"0(0#0#68"/Users/benduivesteyn/Downloads/PageControl/en.lproj/PhoneContent.xib8613741632#674"    cd /Users/benduivesteyn/Downloads/PageControl    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/PhoneContent.nib /Users/benduivesteyn/Downloads/PageControl/en.lproj/PhoneContent.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/content_iPad.plist en.lproj/content_iPad.plist
+s322491629.218537
+e322491629.603823
+r1
+xCopyPlistFile
+x/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/content_iPad.plist
+xen.lproj/content_iPad.plist
+o/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist:77: warning: Insecure world writable dir /usr/local/bin in PATH, mode 040777
+lSLF07#2@32"Copy en.lproj/content_iPad.plist322491629#322491629#0(164"/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist:77: warning: Insecure world writable dir /usr/local/bin in PATH, mode 0407770(0#0#70"/Users/benduivesteyn/Downloads/PageControl/en.lproj/content_iPad.plist8613277504#487"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 en.lproj/content_iPad.plist --outdir /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj0#
+
+CCopyPlistFile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/content_iPhone.plist en.lproj/content_iPhone.plist
+s322491630.838534
+e322491630.902142
+r1
+xCopyPlistFile
+x/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj/content_iPhone.plist
+xen.lproj/content_iPhone.plist
+o/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist:77: warning: Insecure world writable dir /usr/local/bin in PATH, mode 040777
+lSLF07#2@34"Copy en.lproj/content_iPhone.plist322491630#322491630#0(164"/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist:77: warning: Insecure world writable dir /usr/local/bin in PATH, mode 0407770(0#0#72"/Users/benduivesteyn/Downloads/PageControl/en.lproj/content_iPhone.plist8613642560#489"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 en.lproj/content_iPhone.plist --outdir /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/en.lproj0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Default-Landscape.png Default-Landscape.png
+s322491631.499409
+e322491631.514242
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Default-Landscape.png
+xDefault-Landscape.png
+lSLF07#2@26"Copy Default-Landscape.png322491631#322491631#0(0"0(0#0#64"/Users/benduivesteyn/Downloads/PageControl/Default-Landscape.png8612879808#580"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/Default-Landscape.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Default-Portrait.png Default-Portrait.png
+s322491631.500456
+e322491631.518353
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Default-Portrait.png
+xDefault-Portrait.png
+lSLF07#2@25"Copy Default-Portrait.png322491631#322491631#0(0"0(0#0#63"/Users/benduivesteyn/Downloads/PageControl/Default-Portrait.png8608064832#579"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/Default-Portrait.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Default.png Default.png
+s322492271.569895
+e322492271.620680
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png322492271#322492271#0(0"0(0#0#54"/Users/benduivesteyn/Downloads/PageControl/Default.png8631034336#570"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/Default.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Default.png images/Default.png
+s322491631.502889
+e322491631.544138
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Default.png
+ximages/Default.png
+lSLF07#2@23"Copy images/Default.png322491631#322491631#0(0"0(0#0#61"/Users/benduivesteyn/Downloads/PageControl/images/Default.png8614560160#577"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/images/Default.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Icon-72.png images/Icon-72.png
+s322491631.504757
+e322491631.531750
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Icon-72.png
+ximages/Icon-72.png
+lSLF07#2@23"Copy images/Icon-72.png322491631#322491631#0(0"0(0#0#61"/Users/benduivesteyn/Downloads/PageControl/images/Icon-72.png8614326176#577"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/images/Icon-72.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Icon-Small-50.png images/Icon-Small-50.png
+s322491631.506576
+e322491631.531899
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Icon-Small-50.png
+ximages/Icon-Small-50.png
+lSLF07#2@29"Copy images/Icon-Small-50.png322491631#322491631#0(0"0(0#0#67"/Users/benduivesteyn/Downloads/PageControl/images/Icon-Small-50.png8614178048#583"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/images/Icon-Small-50.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Icon-Small.png images/Icon-Small.png
+s322491631.508420
+e322491631.534275
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Icon-Small.png
+ximages/Icon-Small.png
+lSLF07#2@26"Copy images/Icon-Small.png322491631#322491631#0(0"0(0#0#64"/Users/benduivesteyn/Downloads/PageControl/images/Icon-Small.png8613870208#580"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/images/Icon-Small.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Icon-Small@2x.png images/Icon-Small@2x.png
+s322491631.510422
+e322491631.532654
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Icon-Small@2x.png
+ximages/Icon-Small@2x.png
+lSLF07#2@29"Copy images/Icon-Small@2x.png322491631#322491631#0(0"0(0#0#67"/Users/benduivesteyn/Downloads/PageControl/images/Icon-Small@2x.png8613586304#583"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/images/Icon-Small@2x.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Icon.png images/Icon.png
+s322491631.512211
+e322491631.542732
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Icon.png
+ximages/Icon.png
+lSLF07#2@20"Copy images/Icon.png322491631#322491631#0(0"0(0#0#58"/Users/benduivesteyn/Downloads/PageControl/images/Icon.png8613541856#574"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/images/Icon.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/Icon@2x.png images/Icon@2x.png
+s322491631.514431
+e322491631.543930
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/Icon@2x.png
+ximages/Icon@2x.png
+lSLF07#2@23"Copy images/Icon@2x.png322491631#322491631#0(0"0(0#0#61"/Users/benduivesteyn/Downloads/PageControl/images/Icon@2x.png8613277792#577"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/images/Icon@2x.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/StocksDetail.png StocksDetail.png
+s322492271.582775
+e322492271.632580
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/StocksDetail.png
+xStocksDetail.png
+lSLF07#2@21"Copy StocksDetail.png322492271#322492271#0(0"0(0#0#59"/Users/benduivesteyn/Downloads/PageControl/StocksDetail.png8630735232#575"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/StocksDetail.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/StocksMain.png StocksMain.png
+s322492271.582069
+e322492271.647322
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/StocksMain.png
+xStocksMain.png
+lSLF07#2@19"Copy StocksMain.png322492271#322492271#0(0"0(0#0#57"/Users/benduivesteyn/Downloads/PageControl/StocksMain.png8630812160#573"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/StocksMain.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/iTunesArtwork images/iTunesArtwork
+s322491631.516292
+e322491631.537497
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/iTunesArtwork
+ximages/iTunesArtwork
+lSLF07#2@25"Copy images/iTunesArtwork322491631#322491631#0(0"0(0#0#63"/Users/benduivesteyn/Downloads/PageControl/images/iTunesArtwork8613103488#579"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/images/iTunesArtwork /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/large_five.png LargeImages/large_five.png
+s322491629.165662
+e322491629.209839
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/large_five.png
+xLargeImages/large_five.png
+lSLF07#2@31"Copy LargeImages/large_five.png322491629#322491629#0(0"0(0#0#69"/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_five.png8616410016#585"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/LargeImages/large_five.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/large_four.png LargeImages/large_four.png
+s322491629.168556
+e322491629.223559
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/large_four.png
+xLargeImages/large_four.png
+lSLF07#2@31"Copy LargeImages/large_four.png322491629#322491629#0(0"0(0#0#69"/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_four.png8615803616#585"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/LargeImages/large_four.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/large_one.png LargeImages/large_one.png
+s322491629.170577
+e322491629.225892
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/large_one.png
+xLargeImages/large_one.png
+lSLF07#2@30"Copy LargeImages/large_one.png322491629#322491629#0(0"0(0#0#68"/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_one.png8615494400#584"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/LargeImages/large_one.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/large_six.png LargeImages/large_six.png
+s322491629.173199
+e322491629.209959
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/large_six.png
+xLargeImages/large_six.png
+lSLF07#2@30"Copy LargeImages/large_six.png322491629#322491629#0(0"0(0#0#68"/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_six.png8615238816#584"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/LargeImages/large_six.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/large_three.png LargeImages/large_three.png
+s322491629.175570
+e322491629.210068
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/large_three.png
+xLargeImages/large_three.png
+lSLF07#2@32"Copy LargeImages/large_three.png322491629#322491629#0(0"0(0#0#70"/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_three.png8614988928#586"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/LargeImages/large_three.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/large_two.png LargeImages/large_two.png
+s322491629.178709
+e322491629.203184
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/large_two.png
+xLargeImages/large_two.png
+lSLF07#2@30"Copy LargeImages/large_two.png322491629#322491629#0(0"0(0#0#68"/Users/benduivesteyn/Downloads/PageControl/LargeImages/large_two.png8614689056#584"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/LargeImages/large_two.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/small_five.png SmallImages/small_five.png
+s322491629.181383
+e322491629.227361
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/small_five.png
+xSmallImages/small_five.png
+lSLF07#2@31"Copy SmallImages/small_five.png322491629#322491629#0(0"0(0#0#69"/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_five.png8614557184#585"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/SmallImages/small_five.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/small_four.png SmallImages/small_four.png
+s322491629.183354
+e322491629.225500
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/small_four.png
+xSmallImages/small_four.png
+lSLF07#2@31"Copy SmallImages/small_four.png322491629#322491629#0(0"0(0#0#69"/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_four.png8614445120#585"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/SmallImages/small_four.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/small_one.png SmallImages/small_one.png
+s322491629.185836
+e322491629.225618
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/small_one.png
+xSmallImages/small_one.png
+lSLF07#2@30"Copy SmallImages/small_one.png322491629#322491629#0(0"0(0#0#68"/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_one.png8614306496#584"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/SmallImages/small_one.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/small_six.png SmallImages/small_six.png
+s322491629.203277
+e322491629.229788
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/small_six.png
+xSmallImages/small_six.png
+lSLF07#2@30"Copy SmallImages/small_six.png322491629#322491629#0(0"0(0#0#68"/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_six.png8614143392#584"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/SmallImages/small_six.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/small_three.png SmallImages/small_three.png
+s322491629.210136
+e322491629.232051
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/small_three.png
+xSmallImages/small_three.png
+lSLF07#2@32"Copy SmallImages/small_three.png322491629#322491629#0(0"0(0#0#70"/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_three.png8613576704#586"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/SmallImages/small_three.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CCpResource build/Release-iphonesimulator/PageControl.app/small_two.png SmallImages/small_two.png
+s322491629.212283
+e322491629.232173
+r1
+xCpResource
+xbuild/Release-iphonesimulator/PageControl.app/small_two.png
+xSmallImages/small_two.png
+lSLF07#2@30"Copy SmallImages/small_two.png322491629#322491629#0(0"0(0#0#68"/Users/benduivesteyn/Downloads/PageControl/SmallImages/small_two.png8613391392#584"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/benduivesteyn/Downloads/PageControl/SmallImages/small_two.png /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+
+CGenerateDSYMFile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app.dSYM /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl
+s322491633.152256
+e322491633.181470
+r1
+xGenerateDSYMFile
+x/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app.dSYM
+x/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl
+lSLF07#2@125"GenerateDSYMFile build/Release-iphonesimulator/PageControl.app.dSYM build/Release-iphonesimulator/PageControl.app/PageControl322491633#322491633#0(0"0(0#0#100"/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl8608628640#473"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl -o /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app.dSYM0#
+
+CLd /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl normal i386
+s322491633.120253
+e322491633.152160
+r1
+xLd
+x/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl
+xnormal
+xi386
+lSLF07#2@105"Link /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl322491633#322491633#0(0"0(0#0#0"8612699360#1010"    cd /Users/benduivesteyn/Downloads/PageControl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -filelist /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/Objects-normal/i386/PageControl.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PageControl0#
+
+CProcessInfoPlistFile /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Info.plist Info.plist
+s322491629.131533
+e322491629.160029
+r1
+xProcessInfoPlistFile
+x/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist322491629#322491629#0(0"0(0#0#53"/Users/benduivesteyn/Downloads/PageControl/Info.plist8613931008#557"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app/Info.plist0#
+
+CProcessPCH /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch.gch Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322491631.700631
+e322491632.412019
+r1
+xProcessPCH
+x/var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch.gch
+xPrefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@21"Precompile Prefix.pch322491631#322491632#0(0"0(0#0#53"/Users/benduivesteyn/Downloads/PageControl/Prefix.pch8599785984#1981"    cd /Users/benduivesteyn/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator -I/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/include -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/benduivesteyn/Downloads/PageControl/build/PageControl.build/Release-iphonesimulator/PageControl.build/DerivedSources -c /Users/benduivesteyn/Downloads/PageControl/Prefix.pch -o /var/folders/r6/r6T-g5rFFjq3YwGNPEgXbU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/Prefix-aqnctfqklryqtzdpdxkfxfmxeqta/Prefix.pch.gch0#
+
+CTouch /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app
+s322492271.648372
+e322492271.685768
+r1
+xTouch
+x/Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app
+lSLF07#2@94"Touch /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app322492271#322492271#0(0"0(0#0#0"8627129216#354"    cd /Users/benduivesteyn/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/benduivesteyn/Downloads/PageControl/build/Release-iphonesimulator/PageControl.app0#
+

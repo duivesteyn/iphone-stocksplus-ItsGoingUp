@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>YOUR_PROJECT_NAME</string>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Update Frequency</string>
+			<key>Key</key>
+			<string>updatefrequency_stocks</string>
+			<key>DefaultValue</key>
+			<string>60</string>
+			<key>Values</key>
+			<array>
+				<string>30</string>
+				<string>60</string>
+				<string>300</string>
+				<string>900</string>
+				<string>3600</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>30 Seconds</string>
+				<string>1 Minute</string>
+				<string>5 Minutes</string>
+				<string>15 Minutes</string>
+				<string>1 Hour</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Reset All App Data</string>
+			<key>Key</key>
+			<string>datareset</string>
+			<key>DefaultValue</key>
+			<string>NO</string>
+			<key>TrueValue</key>
+			<string>YES</string>
+			<key>FalseValue</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright © 2012 Ben Michael. All rights reserved.
+
+Takk til Björn Sållarp for &apos;Yahoo Finance API for iOS&apos;</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Advanced</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Hide Follow Button</string>
+			<key>Key</key>
+			<string>followbutton</string>
+			<key>DefaultValue</key>
+			<string>NO</string>
+			<key>TrueValue</key>
+			<string>YES</string>
+			<key>FalseValue</key>
+			<string>NO</string>
+		</dict>
+	</array>
+</dict>
+</plist>

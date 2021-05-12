@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BHP.AX</key>
+	<dict>
+		<key>Volume</key>
+		<integer>30240324023024</integer>
+		<key>Open</key>
+		<real>45.2</real>
+		<key>Low</key>
+		<real>44.1</real>
+		<key>High</key>
+		<real>46.6</real>
+		<key>Last</key>
+		<real>42.1</real>
+		<key>52w low</key>
+		<real>25.01</real>
+		<key>52w high</key>
+		<real>72.06</real>
+		<key>pe</key>
+		<real>9.201000000000001</real>
+		<key>MktCap</key>
+		<integer>176000000</integer>
+		<key>Time</key>
+		<date>2011-12-17T04:42:59Z</date>
+		<key>Change</key>
+		<real>0.25</real>
+	</dict>
+	<key>GOOG</key>
+	<dict>
+		<key>High</key>
+		<real>46.6</real>
+		<key>Low</key>
+		<real>44.1</real>
+		<key>Open</key>
+		<real>45.2</real>
+		<key>Volume</key>
+		<integer>20000</integer>
+		<key>Last</key>
+		<integer>700</integer>
+		<key>52w low</key>
+		<integer>0</integer>
+		<key>52w high</key>
+		<integer>0</integer>
+		<key>pe</key>
+		<integer>21</integer>
+		<key>MktCap</key>
+		<integer>202700000000</integer>
+		<key>Time</key>
+		<integer>0</integer>
+		<key>Change</key>
+		<real>12.4</real>
+	</dict>
+	<key>AAPL</key>
+	<dict>
+		<key>Volume</key>
+		<integer>4324230</integer>
+		<key>52w low</key>
+		<real>237.5</real>
+		<key>Open</key>
+		<integer>305</integer>
+		<key>Low</key>
+		<integer>305</integer>
+		<key>High</key>
+		<integer>402</integer>
+		<key>Last</key>
+		<integer>300</integer>
+		<key>52w high</key>
+		<real>450.3</real>
+		<key>pe</key>
+		<real>9.4</real>
+		<key>MktCap</key>
+		<integer>354100000000</integer>
+		<key>Time</key>
+		<date>2011-12-17T20:58:04Z</date>
+		<key>Change</key>
+		<real>-2.4</real>
+	</dict>
+</dict>
+</plist>

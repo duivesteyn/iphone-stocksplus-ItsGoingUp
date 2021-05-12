@@ -1,0 +1,126 @@
+ItsGoingUp/Stocks+ Changelog
+----------------------------
+bm 2012
+----------------------------
+
+1.3 - 
+IAP and free!
+
+1.2 -  2013.03.XX
+
+Goals:
+-Speed up startup and Make more responsive
+-Register for Notification only when sliding on
+-Better font
+-Better Colors in app
+-sound
+
+
+
+TODO:
+update correctly when adding a new stock
+Fix updating text lingering bug
+More efficient caching of 1D/5D data
+Late Registering for notifications (when switching on alert for 1st time)
+Add a specific identifer to emails to aid in help requests
+
+New Look!
+A Bunch of views/code optimised
+Now using a non default Notification Sound
+More:
+Updated PullToRefresh to Localised Date
+Notifications will now work in foreground too
+Removed references to promo/lite version and iAd
+Fixed an offline notes bug introduced in v1.1
+
+
+
+
+1.1 - 2013.02.17
+Added Support for iPhone 5 Screen Size
+Fixed Above/Below Notification Settings
+Fixed Support for Repeat Notifications
+Better Charge Loading
+Set Notifications to be off by default
+Small visual tweaks
+More:
+Twitter link replaced with Facebook Page Link
+Updated BugSense to 3.2
+Fixed UrbanAirship Bug (plist)
+
+1.0.1
+Bug fix: iRate alert timing fixed (was on debug)
+Notifications are always enabled by default now
+Added Display of current Stock Price in AddStock View
+
+1.00
+First Release
+
+0.79
+Added Welcome Screen
+Added Device Type/Version Data collection for User Experience Checks
+
+
+0.78
+Bug Fixes
+-2 Digits in graph now
+-Setting Notification Target in European Currency Decimal Fixed
+
+
+0.77
+Polishing
+
+0.76
+Full Notification Integration
+
+
+0.75
+Working labels on 1D/5D Charts
+Follow Link
+Added iAds
+
+0.74
+Added Charts. Working Pretty Great
+
+Pre 0.70
+Polished Add Screen
+Added Settings
+Added Lite Promo
+
+0.08
+Added Stock Adding Module
+Added Correct Offline Sensing and view changes. Responds on/off continuously
+Added Stock Updating
+
+0.07
+Implented Chart
+Added BugSense Error Reporting
+Added Check for Full Version
+
+0.06
+Adding - Options Screen Library
+Added Split source for Lite Version
+Continue to refine app ui
+Added Shake to Update
+Added Threading for Updating/Data tasks
+Added Click MainSummary cell -> View
+
+0.05
+Included Status Bar text notifications (MTStatusBarOverlay) - Works
+Included datastorage plists
+Changed Project name 
+Organised Project
+
+0.04 - beta
+Push REgisterinf
+
+
+
+-------
+RoadMap
+-------
+1.1
+iCloud Syncing of ClientList.plist (Full Version Only)
+-Shake to update
+-User Requests
+-Bug Fixes
